@@ -23,7 +23,9 @@ header {
 
 
 header img {
+    display: block;
     max-width: 100%;
+    height: auto;
 }
 
 
@@ -35,10 +37,10 @@ header img {
 
 
 .container img {
+    display: block;
     max-width: 100%;
+    height: auto;
 }
-
-
 
 
 button {
@@ -80,7 +82,7 @@ button:hover {
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
     .img-column {
         width: 55%;
     }
@@ -132,23 +134,25 @@ p {
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 1000px) {
     body {
         background-image: url(images/bg-mobile.svg);
         background-size: 100%;
+        border: 1px solid black;
     }
     
     
 
     header img {
         width: 50%;
-        margin: -1em;
+        margin: -2em;
     }
 
     .container {
         flex-direction: column;
         margin: 0;
-        padding: 4em 4em 1em 4em;
+        padding: 4em 3.5em 1em 3.5em;
+        border: 1px solid black;
     }
 
     footer {
@@ -175,6 +179,10 @@ p {
         /* border: 1px solid black; */
         padding: 1em;
         margin-bottom: 0;
+    }
+
+    button {
+        padding: -8rem;
     }
     
 }
