@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/nageshpk/Huddle-introductory-page
-- Live Site URL: [https://your-live-site-url.com](https://nageshpk.github.io/Huddle-introductory-page/)
+- Live Site URL: https://nageshpk.github.io/Huddle-introductory-page/
 
 ## My process
 
